@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Setting</title>
+    <!-- template title -->
+    <link rel="stylesheet" href="css/FirstDashboard.css">
+    <link rel="stylesheet" href="all.min.css">
+    <!-- normalize file -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+<!-- font icons folder -->
+<link rel="stylesheet" href="http://fonts.gstatic.com">
+</head>
+<body>
+    <div class="page">
+        <div class="sidepar">
+            <h3>Dashboard ui design</h3>
+            <ul>
+                <li>
+                    <a class="" href="index.html">
+                            <i class="fa-regular fa-chart-bar fa-fw"></i>
+                            <span>Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="active" href="setting.html">
+                        <i class="fa-solid fa-gear fa-fw"></i>
+                            <span>Setting</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="" href="profile.html">
+                        <i class="fa-solid fa-user fa-fw"></i>
+                            <span>Profile</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="" href="projects.html">
+                        <i class="fa-solid fa-diagram-project fa-fw"></i>
+                            <span>Projects</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="" href="courses.html">
+                        <i class="fa-brands fa-discourse fa-fw"></i>
+                            <span>Courses</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="" href="friends.html">
+                        <i class="fa-solid fa-user-group fa-fw"></i>
+                            <span>Friends</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="" href="files.html">
+                        <i class="fa-solid fa-file fa-fw"></i>
+                            <span>Files</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="" href="plans.html">
+                        <i class="fa-solid fa-sheet-plastic fa-fw"></i>
+                            <span>Plans</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="content">
+            <!-- start header -->
+            <div class="header">
+                <div class="search">
+                    <input type="search" placeholder="Type A Keyword" >
+                </div>
+                <div class="icons">
+                    <span class="notification">
+                        <i class="fa-solid fa-bell fa-lg"></i>
+                    </span>
+                    <img src="./css/images/head-photo.jpg" alt="">
+                </div>
+            </div>
+            <!-- end header -->
+            <!-- Start settings page -->
+            <h1>Settings</h1>
+            <div class="setting-page">
+                <!-- start settings box -->
+                <div class="settings-box">
+                    <h2>Site Control</h2>
+                    <p>Control The Website If There The Maintenance.</p>
+                    <div class="options">
+                        <div class="text">
+                            <span>Website Control</span>
+                            <p>Open/Close Website And Type The Reason.</p>
+                        </div>
+                        <div class="">
+                            <label>
+                                <input class="toggle-checkbox" type="checkbox" checked>
+                                <div class="toggle-switch"></div>
+                            </label>
+                        </div>
+                    </div>
+                    <textarea class="close-message" placeholder="Type your close message..."></textarea>
+                </div>
+                <!-- end settings box -->
+                <!-- start general info -->
+            <div class="general-info">
+                    <h2>General Info</h2>
+                    <p>General Information About Your Account.</p>
+                    <div class="label-box">
+                        <label for="first" >First Name</label>
+                        <input type="text" id="first" placeholder="First name">
+                    </div>
+                    <div class="label-box">
+                        <label for="last">Last Name</label>
+                        <input type="text" id="last" placeholder="Last name">
+                    </div>
+                    <div class="label-box">
+                        <label class="email" for="e.mail">E.mail<label>
+                        <input type="email" id="email" value="Rasha Mahmoud@gmail.com" disabled placeholder="E.mail">
+                    </div>
+                    <a href="#change">Change</a>
+            </div>
+            <!-- end general info -->
+            <!-- start security info -->
+            <div class="security-info">
+                <h2>Security Info</h2>
+                <p>Security Information About Your Account.</p>
+                <div class="sec-box">
+                    <div class="pass">
+                        <span>Password</span>
+                        <p>Last Change On 25/10/2022</p>
+                    </div>
+                    <a href class="button">Change</a>
+                </div>
+                <div class="sec-box">
+                    <div class="pass">
+                        <span>Two Factor Authentication</span>
+                        <p>Enable/Disable The Feature</p>
+                    </div>
+                    <label>
+                        <input class="toggle-checkbox" type="checkbox" checked>
+                        <div class="toggle-switch"></div>
+                    </label>
+                </div>
+                <div class="sec-box">
+                    <div class="pass">
+                        <span>Devices</span>
+                        <p>Check The Login Devices List.</p>
+                    </div>
+                    <a href class="">Devices List.</a>
+                </div>
+            </div>
+            <!-- end security info -->
+            <!-- start Social info -->
+            <div class="social-info">
+                <h2>Social Info</h2>
+                <p>Social Media Information</p>
+                <div class="icons">
+                    <i class="fa-brands fa-twitter"></i>
+                    <input type="text" placeholder="Twitter Username.">
+                </div>
+                <div class="icons">
+                    <i class="fa-brands fa-facebook"></i>
+                    <input type="text" placeholder="Facebook Username.">
+                </div>
+                <div class="icons">
+                    <i class="fa-brands fa-youtube"></i>
+                    <input type="text" placeholder=" Youtube Channel.">
+                </div>
+                <div class="icons">
+                    <i class="fa-brands fa-linkedin"></i>
+                    <input type="text" placeholder=" Linkedin Username.">
+                </div>
+            </div>
+            <!-- end Social info -->
+            <!-- Start custom checkbox -->
+            <div class="widgets-control">
+                <h2>Widgets Control</h2>
+                <p>Show/Hide Widgets.</p>
+                <div class="control">
+                    <input type="checkbox" id="one" checked>
+                    <label for="one">Quick Draft</label>
+                </div>
+                <div class="control">
+                    <input type="checkbox" id="two" checked>
+                    <label for="two">Yearly Targets</label>
+                </div>
+                <div class="control">
+                    <input type="checkbox" id="three" checked>
+                    <label for="three">Tickets Statistics</label>
+                </div>
+                <div class="control">
+                    <input type="checkbox" id="four">
+                    <label for="four">Latest News</label>
+                </div>
+                <div class="control">
+                    <input type="checkbox" id="five">
+                    <label for="five">Latest Tickets</label>
+                </div>
+                <div class="control">
+                    <input type="checkbox" id="six" checked>
+                    <label for="six">Top Search Items</label>
+                </div>
+            </div>
+            <!-- End custom checkbox -->
+            <!-- start backup manager -->
+            <div class="backup-control">
+                <h2>Backup Manager.</h2>
+                <p>Control Backup Date And Location .</p>
+                <div class="date">
+                    <input type="radio" name="time" id="daily" checked>
+                    <label for="daily">Daily</label>
+                </div>
+                <div class="date">
+                    <input type="radio" name="time" id="weekly">
+                    <label for="weekly">Weekly</label>
+                </div>
+                <div class="date">
+                    <input type="radio" name="time" id="monthly">
+                    <label for="monthly">Monthly</label>
+                </div>
+                <div class="servers">
+                    <input type="radio" name="servers" id="server-one">
+                    <div class="server">
+                        <label for="server-one">
+                            <i class="fa-solid fa-server"></i>
+                            Megaman
+                        </label>
+                    </div>
+                    <input type="radio" name="servers" id="server-two" checked>
+                    <div class="server">
+                        <label for="server-two">
+                            <i class="fa-solid fa-server"></i>
+                            Rasha
+                        </label>
+                    </div>
+                    <input type="radio" name="servers" id="server-three">
+                    <div class="server">
+                        <label for="server-three">
+                            <i class="fa-solid fa-server"></i>
+                            Sigma
+                        </label>
+                    </div>
+                </div>
+            </div>
+            <!-- end backup manager -->
+            <!-- End settings page -->
+        </div>
+    </div>
+</body>
+</html>
